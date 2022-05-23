@@ -1,6 +1,9 @@
 import React from 'react';
-import FileList from './components/FileList';
-import files from './data/filesData';
+import ClickButton from './component/ClickButton';
+import Form from './component/Form';
+import FormSimple from './component/FormSimple';
+
+
 
 const App = () => (
   <div className="py-10 max-w-7xl mx-auto">
@@ -12,8 +15,10 @@ const App = () => (
     <main>
       <div className="sm:px-6 lg:px-8">
         <div className="px-4 py-8 sm:px-0">
-          <div className="border-4 border-dashed border-gray-200 rounded-lg min-h-96">
-            <FileList files={files} />
+          <div className="border-4 border-dashed border-gray-200 rounded-lg min-h-96" >
+            <ClickButton />
+            <Form/>
+            <FormSimple/>
           </div>
         </div>
       </div>
