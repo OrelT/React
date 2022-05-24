@@ -90,7 +90,7 @@ const Form = () => {
             />
           </label>
           <label
-                // RADION BUTTON :
+                // RADIO BUTTON :
                 //   les radio button sont lier par le name, 
                 // s'il ont le meme name alors on ne pourra pas cocher plusieur button en meme temps 
             htmlFor="female"
