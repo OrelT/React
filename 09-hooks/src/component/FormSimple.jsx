@@ -8,10 +8,8 @@ const FormSimple =() => {
     const [isFriend, setIsFriend] = useState(false);
 
     useEffect(() =>{
-        // console.log(search, isFriend);
-    
-        search.toLowerCase() === 'maxime' ? setIsFriend(true) : setIsFriend(false);
-    }, [search]); // dans les crochets, on précisera les valeurs à observer
+      
+    });
         
     const handleSubmit = (e) => {
         e.preventDefault();
